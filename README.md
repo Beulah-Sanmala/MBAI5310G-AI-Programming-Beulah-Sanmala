@@ -1,6 +1,9 @@
 # MBAI5310G-AI-Programming-Beulah-Sanmala
 AI Programming coursework for MBAI 5310G
-Student Name: Beulah Prabhu
+
+Student Name: Beulah Sanmala
+
+Student ID: 100996237
 
 Course: MBAI 5310G - AI Programming
 
