@@ -5,8 +5,22 @@ Student Name: Beulah Sanmala
 
 Student ID: 100996237
 
-Course: MBAI 5310G - AI Programming
+## Course Information
+Course: MBAI 5310G – AI Programming  
+Institution: Ontario Tech University  
+Semester: Spring 2026
 
-This repository contains my weekly coding assignments and final AI programming project for MBAI 5310G.
+## Repository Purpose
+This repository contains my weekly coding assignments, notebooks, outputs, documentation, and final AI programming project for MBAI 5310G.
 
-The repository will include Jupyter/Colab notebooks, code, outputs, README files, and documentation for reproducibility.
+## Repository Contents
+The repository will include:
+- Jupyter/Google Colab notebooks
+- Python code files
+- Assignment submissions
+- Output files and visualizations
+- README documentation
+- Reproducibility documentation
+
+## Notes
+This repository is organized for weekly assignments and the final business-oriented AI programming project.
