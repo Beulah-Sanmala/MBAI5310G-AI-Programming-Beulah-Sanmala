@@ -122,7 +122,7 @@ Future improvements could include:
 - Python
 - Pandas
 - NumPy
-- Scikit-learn[Uploading ecommerce_customer_churn_dataset.csv…]()
+- Scikit-learn
 - Jupyter Notebook
 
 ---
