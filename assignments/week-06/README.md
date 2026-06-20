@@ -1,7 +1,7 @@
 # Model Evaluation, Explainability, and Fairness Reflection
 
 ## Dataset Description
-This assignment uses a library late return dataset with 360 records and 17 columns. It includes borrower demographics, borrowing behavior, library usage, reminder timing, fines, and return status. The business goal is to predict whether a borrower will return a borrowed library item late.
+This assignment uses a library late return dataset with 360 records and 17 columns. It includes borrower demographics, borrowing behavior, library usage, reminder timing, fines, and return status. The business goal is to predict whether a borrower will return a borrowed library item late. 
 
 ## Target Variable
 The target variable is `late_return`.
