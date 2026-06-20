@@ -1,0 +1,36 @@
+# Model Evaluation, Explainability, and Fairness Reflection
+
+## Dataset Description
+This assignment uses a library late return dataset with 360 records and 17 columns. It includes borrower demographics, borrowing behavior, library usage, reminder timing, fines, and return status. The business goal is to predict whether a borrower will return a borrowed library item late.
+
+## Target Variable
+The target variable is `late_return`.
+
+- `0` = On-time return
+- `1` = Late return
+
+## Model Used
+A Decision Tree Classifier was used because it is simple, interpretable, and appropriate for business explanation. The model was trained using a preprocessing pipeline that handled missing values and converted categorical variables into numerical format using one-hot encoding.
+
+## Main Evaluation Results
+Using the test set, the model produced the following results:
+
+| Metric | Score |
+| Accuracy | 0.5972 |
+| Precision | 0.5161 |
+| Recall | 0.5333 |
+| F1-score | 0.5246 |
+
+The cross-validation mean accuracy was 0.7306 with a standard deviation of 0.0573.
+
+## Main Business Interpretation
+The model predicts whether a library borrower is likely to return an item late. Recall is the most important metric because missing an actual late return means the library may lose the chance to send reminders or take preventive action. False negatives are more serious than false positives because they represent borrowers who actually returned items late but were predicted as on-time.
+
+## Explainability
+Feature importance, SHAP, and LIME were used to explain the Decision Tree model. The most important features included previous late returns, account fines, renewal usage, age, and distance to the library. These features help explain which borrower and loan characteristics influenced predictions.
+
+## Fairness Reflection
+Fairness analysis was completed using gender and age group. These columns were not used as model inputs, but they were used after prediction to compare actual positive rates, predicted positive rates, and accuracy across groups. The results show that the model should be monitored carefully because performance may differ across borrower groups.
+
+## Limitation
+The model is an early prototype and should not be used for fully automated decisions. The dataset is relatively small, the test accuracy is moderate, and fairness differences require further review. More data, better tuning, and human oversight are recommended before real business use.
